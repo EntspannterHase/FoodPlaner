@@ -1,0 +1,211 @@
+#SelectionMenu {
+    -fx-background-color: #333333;
+}
+
+#TopLayer {
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+    -fx-spacing: 10;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: rgba(0, 0, 0, 0.7);
+    -fx-background-color: #4d4d4d;
+}
+
+#TopLayer Label {
+    -fx-font-size: 18;
+}
+
+Label {
+    -fx-text-fill: white;
+}
+
+Button {
+    -fx-background-color: transparent;
+    -fx-border-radius: 7;
+    -fx-background-radius: 7;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: rgba(0,0,0,0.3);
+    -fx-text-fill: white;
+    -fx-padding: 5;
+}
+
+Button:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+}
+
+RadioButton, CheckBox {
+    -fx-text-fill: white;
+}
+
+#PlanManagerPane {
+    -fx-background-color: #4d4d4d;
+    -fx-alignment: center;
+}
+
+#FilterPane {
+    -fx-background-color: #4d4d4d;
+    -fx-max-width: 600;
+    -fx-max-height: 400;
+    -fx-padding: 40;
+    -fx-border-radius: 7;
+    -fx-background-radius: 7;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+    -fx-alignment: top-left;
+}
+
+#FilterPaneHeader {
+    -fx-font-size: 18;
+}
+
+#WeekEntry, #DishWithEntry {
+
+}
+
+#DishWithEntry {
+
+}
+
+#WeekTableHeading {
+
+}
+
+#WeekTableHeading Label, #WeekTable CheckBox {
+    -fx-font-size: 13;
+    -fx-pref-width: 60;
+    -fx-padding: 0 0 0 20;
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: rgba(0,0,0,0.3);
+}
+
+#WeekTable Label{
+    -fx-padding: 0 0 0 10;
+    -fx-pref-width: 60;
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: rgba(0,0,0,0.3);
+}
+
+ScrollPane FlowPane {
+    -fx-padding: 20;
+    -fx-vgap: 5;
+    -fx-hgap: 5;
+    -fx-background-color: #4d4d4d;
+}
+
+ScrollPane .scroll-bar {
+    -fx-background-color: #4d4d4d;
+    -fx-border-color: rgba(0,0,0,0.3);
+    -fx-border-radius: 7;
+}
+
+ScrollPane .scroll-bar .thumb {
+    -fx-background-color: #333333;
+}
+
+ScrollPane {
+    -fx-background-color: transparent;
+}
+
+ScrollPane VBox {
+    -fx-background-color: #4d4d4d;
+    -fx-spacing: 5;
+}
+
+#DishManagerPane, #IngredientManagerPane {
+    -fx-background-color: #4d4d4d;
+}
+
+#view {
+    -fx-background-color: gray;
+    -fx-pref-height: 40;
+    -fx-min-width: 50;
+    -fx-background-radius: 7;
+    -fx-border-radius: 7;
+}
+
+#view:hover {
+    -fx-background-color: #121212;
+}
+
+#DishManagerPane Label, #IngredientMangerPane Label {
+    -fx-font-size: 18;
+}
+
+#IngredientEditingBox, #DishEditingBox {
+    -fx-alignment: center;
+    -fx-border-radius: 7;
+    -fx-background-radius: 7;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+    -fx-padding: 30;
+    -fx-background-color: #4d4d4d;
+}
+
+#IngredientEditingBox {
+    -fx-spacing: 5;
+    -fx-max-width: 400;
+    -fx-max-height: 200;
+}
+
+#ingredient_wrapper {
+    -fx-spacing: 5;
+}
+
+TextField {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+    -fx-text-fill: white;
+    -fx-background-radius: 7;
+    -fx-border-radius: 7;
+    -fx-border-color: rgba(0, 0, 0, 0.2);
+}
+
+#DishEditingBox {
+    -fx-max-width: 650;
+    -fx-max-height: 400;
+    -fx-spacing: 10;
+}
+
+#List {
+    -fx-background-color: #4d4d4d;
+}
+
+#List Label {
+    -fx-font-size: 15;
+}
+
+#ShoppingList {
+    -fx-background-color: #4d4d4d;
+    -fx-alignment: top-center;
+    -fx-max-width: 400;
+    -fx-max-height: 450;
+    -fx-border-radius: 7;
+    -fx-background-radius: 7;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+#ShoppingList Label {
+    -fx-font-size: 13;
+}
+
+#PlanManagerPane VBox {
+    -fx-padding: 5;
+    -fx-spacing: 1;
+}
+
+#TableBox Label {
+    -fx-font-size: 12;
+}
+
+#TableBox Label, #heading Label {
+    -fx-min-width: 90;
+    -fx-padding: 0 0 0 5;
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: rgba(0, 0, 0, 0.6);
+}
+
+#TableBox #heading {
+    -fx-spacing: 2;
+    -fx-alignment: center;
+}
+
+#heading Label {
+    -fx-font-size: 15;
+}
